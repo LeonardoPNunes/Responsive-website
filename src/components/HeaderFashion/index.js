@@ -16,7 +16,7 @@ const HeaderFashion = () =>{
 
             <div class="search">
                 <input type="text" class="input-search" placeholder="Search to get fashionable..."/>
-                <button class="button-search">Search</button>
+                <button class="universal-button">Search</button>
             </div>
         </nav>
 
