@@ -1,4 +1,5 @@
 import HeaderFashion from "./src/components/HeaderFashion";
+import ProductSection from "./src/components/ProductSection";
 import SectionTitle from "./src/components/SectionTitle";
 
 import "./src/styles/generic/reset.css";
@@ -8,5 +9,6 @@ $root.insertAdjacentHTML("beforeend", `
 
 ${HeaderFashion()}
 ${SectionTitle()}
+${ProductSection()}
 `)
 
