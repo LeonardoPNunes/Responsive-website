@@ -1,36 +1,20 @@
-const ProductSection = () => {
+import "./style.css"
+const ProductSection = (image) => {
+    const product ={
+        name:"Kit moletom 3 calças lisas masculino benellys",
+        previousValue:"343,90",
+        currentValue:"226,90",
+        cashValue:"222,37"
+    }
 return/*html*/`
-<section class ="product-section">
-
 <div class="product-image">
-<img  src="./images/calça.jpg" alt="imagem de uma calça" />
-<h1>KIT MOLETOM 3 CALÇAS LISAS MASCULINO BENELLYS</h1>
-<p>DE R$ 343,90R$ </p>
-<p>Por 226,90</p>
-<p>À VISTA 222,37</p>
+<img  src="./images/${image}.jpg" alt="imagem de uma calça" />
+<h1 class="product-name">${product.name}</h1>
+<p class="previous-value">De ${product.previousValue} </p>
+<p class="current-value">Por ${product.currentValue}</p>
+<p class="cash-value">À vista ${product.cashValue}</p>
 <button class="universal-button">Comprar</button>
 </div>
-
-<div class="product-image">
-<img  src="./images/calça2.jpg" alt="imagem de uma calça" />
-<h1>KIT MOLETOM 3 CALÇAS LISAS MASCULINO BENELLYS</h1>
-<p>DE R$ 343,90R$ </p>
-<p>Por 226,90</p>
-<p>À VISTA 222,37</p>
-<button class="universal-button">Comprar</button>
-</div>
-
-<div class="product-image">
-<img  src="./images/calça3.jpg" alt="imagem de uma calça" />
-<h1>KIT MOLETOM 3 CALÇAS LISAS MASCULINO BENELLYS</h1>
-<p>DE R$ 343,90R$ </p>
-<p>Por 226,90</p>
-<p>À VISTA 222,37</p>
-<button class="universal-button">Comprar</button>
-</div>
-
-</section>
-
 `
 }
 export default ProductSection
