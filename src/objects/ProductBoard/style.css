@@ -1,0 +1,9 @@
+.product-board{
+    width:100%;
+    margin:0;
+    padding:0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom:20px;
+    border-bottom:1px solid rgb(212, 209, 209);
+}
