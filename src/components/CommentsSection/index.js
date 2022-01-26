@@ -1,3 +1,4 @@
+import "./style.css"
 const CommentsSection = (i) =>{
     const comments = [
         {
@@ -12,19 +13,17 @@ const CommentsSection = (i) =>{
             comment:"Qualidade impecavel"
 
         }
-    ]   
-    const name = comments[i].name
-    const img = comments[i].img
-    const comment = comments[i].comment
-        
-    
+    ];  
+    const name = comments[i].name;
+    const img = comments[i].img;
+    const comment = comments[i].comment;
     
     return/*html*/`
-    <div>
+    <div class="div-comment">
     <img src="${img}" alt="foto de perfil" />
     <h2>${name}</h2>
     <h3>${comment}</h3>
     </div>
     `
 }
-export default CommentsSection
+export default CommentsSection;
