@@ -1,0 +1,17 @@
+.div-comment{
+    text-align: center;
+    
+}
+.div-comment > h2{
+    font-size:20px;
+    margin:5px 0;
+}
+.div-comment > h3{
+    color:#5a5a5a;
+    font-size: 17px;;
+}
+.div-comment > img{
+    border:2px solid rgb(66, 66, 66);
+    box-shadow: inset 0 0 1em gold, 0 0 1em rgb(66, 66, 66);;
+    border-radius: 10%;
+}
