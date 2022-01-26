@@ -1,3 +1,4 @@
+import FooterFashion from "./src/components/FooterFashion";
 import HeaderFashion from "./src/components/HeaderFashion";
 import SectionTitle from "./src/components/SectionTitle";
 import CommentsBoard from "./src/objects/CommentsBoard";
@@ -12,6 +13,7 @@ ${HeaderFashion()}
 ${SectionTitle()}
 ${ProductBoard()}
 ${CommentsBoard()}
+${FooterFashion()}
 
 `)
 
