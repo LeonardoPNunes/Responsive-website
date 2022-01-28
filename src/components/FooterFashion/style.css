@@ -1,9 +1,12 @@
+.footer-fashion{
+    width:100%;
+}
 .footer-grid{
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-auto-rows: minmax(135px,auto);
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
     background:#252525;
-    padding:45px;
 }
 .title{
     color:rgb(190, 190, 190);
@@ -22,7 +25,7 @@
     margin:5px;
 }
 .div-blog{
-    width:250px
+    max-width: 20vw;
 }
 .div-blog >h3{
     font-size:20px;
@@ -64,6 +67,25 @@ outline: 1px solid #888888;
 }
 .div-copy{
 background:#1A1A1A;
-padding:25px;
+padding:15px 0;
 color:#888888;
+}
+@media (max-width: 735px){
+    .footer-grid{
+        flex-direction: column;
+    }
+    .div-details,
+    .div-links,
+    .div-blog,
+    .div-form{
+        width:94vw;
+        max-width:none;
+
+    }
+    .title{
+        margin:4vw 0;
+    }
+    .div-copy{
+        width:100%;
+    }
 }
