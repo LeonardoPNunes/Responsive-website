@@ -1,5 +1,6 @@
-import "./style.css"
+import "./style.css";
 const HeaderFashion = () =>{
+    
     return/*html*/`
     <header class="header-navigation">
     
@@ -15,27 +16,29 @@ const HeaderFashion = () =>{
             </div>
 
             <div class="search">
-                <input type="text" class="input-search" placeholder="Search to get fashionable..."/>
-                <button class="universal-button">Search</button>
+                <form>
+                    <input type="text" class="input-search" placeholder="Search to get fashionable..."/>
+                    <button class="universal-button">Search</button>
+                </form>
             </div>
         </nav>
 
         <nav class="inland-navigation">
-            <div class="logo">
-                <h1><a href="./">Fashion</a> </h1>
+
+            <div class="logo-fashion">
+                <a href="./">Fashion</a> 
                 <h3>A Sua Loja Da Moda</h3>
             </div>
+
+            <ul class="nav-list">
+                <li><a href="./">Home</a></li>
+                <li><a href="./">Novidades</a> </li>
+                <li><a href="./">Promoção</a></li>
+                <li><a href="./">Roupas</a></li>
+                <li><a href="./">Vestidos</a></li>
+                <li><a href="./">Acessórios</a></li>
+            </ul>
             
-            <div class="info-navigation">
-                <ul>
-                    <li><a href="./">Home</a></li>
-                    <li><a href="./">Novidades</a> </li>
-                    <li><a href="./">Promoção</a></li>
-                    <li><a href="./">Roupas</a></li>
-                    <li><a href="./">Vestidos</a></li>
-                    <li><a href="./">Acessórios</a></li>
-                </ul>
-            </div>
         </nav>
     </header>
     `

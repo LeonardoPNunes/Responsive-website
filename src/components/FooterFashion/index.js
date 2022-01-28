@@ -2,7 +2,7 @@ import "./style.css";
 const FooterFashion = () =>{
 
     return/*html*/`
-    <footer class="footer-fashion ">
+    <footer class="footer-fashion">
         <div class="footer-grid">
             <div class="div-details margin">
                 <h2 class="title">Detalhes de Contato</h2>
