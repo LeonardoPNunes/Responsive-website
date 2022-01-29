@@ -1,36 +1,50 @@
 .section-title{
-    padding:40px 50px;
     display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding:5% 0;
     border-bottom:1px solid rgb(212, 209, 209);
 }
 .div-title{
-    margin-top:60px;
-    margin-left:50px;
+    width:50vw;
 }
-.div-title >h1{
-    font-size:30px;
+.div-title h1{
+    color:black;
+    font-size: 25px;
     text-transform: uppercase;
-    margin-bottom:15px;
+    margin-bottom:10px;
 }
-.div-title >h3{
+.div-title h3{
     color:#888888;
-    font-size:15px;
-    width:700px;
-    line-height: 1.1;
-    margin-bottom:20px;
+    margin-bottom:10px;
+    max-width:70%;
+    font-size: 17px;
 }
-.circle-list > li{
-    width:10px;
-    height:10px;
-    border-radius:50%;
-    background:#26b4c4;
-    position: relative;
-    left:85%;
-    list-style:none;
-    display: inline-block;
-    margin:60px 0 0;
-    border:2px solid #26b4c4;
+.circle-list{
+    display:flex;
+    align-items: center;
+    justify-content: end;
 }
-.circle-list > li:hover{
-    background:white
+.circle-list li{
+    padding:.5vw;
+    background-color:#26b4c4;
+    border-radius: 50%;
+    border:3px solid #26b4c4;
+    transition: background .5s ease-in-out;
+}
+.circle-list li:hover{
+    background-color:white;
+}
+@media (max-width: 735px){
+    .computer-div img{
+        width:92vw;
+    }
+    .section-title{
+        flex-direction: column;
+    }
+    .div-title{
+        margin:10vw;
+        width:80vw;
+    }
 }
