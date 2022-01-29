@@ -7,8 +7,8 @@ const ProductSection = (image) => {
         cashValue:"222,37"
     }
 return/*html*/`
-<div class="product-image">
-<img  src="./images/${image}.jpg" alt="imagem de uma calça" />
+<div class="product">
+<img class="product-image" src="./images/${image}.jpg" alt="imagem de uma calça" />
 <h1 class="product-name">${product.name}</h1>
 <p class="previous-value">De ${product.previousValue} </p>
 <p class="current-value">Por ${product.currentValue}</p>

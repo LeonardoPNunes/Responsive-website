@@ -17,8 +17,8 @@ const SectionTitle = () =>{
     <li> </li>
     <li> </li>
     </ul>
-
     </div>
+    
     </section>
     `
 }
