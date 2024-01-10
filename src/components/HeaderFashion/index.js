@@ -1,4 +1,9 @@
 import "./style.css";
+import linkedin from "../../assets/linkedin.png"
+import twitter from "../../assets/twitter.png"
+import pinterest from "../../assets/pinterest.png"
+import googlePlus from "../../assets/google-plus.png"
+import rss from "../../assets/rss.png"
 const HeaderFashion = () =>{
     
     return/*html*/`
@@ -7,11 +12,11 @@ const HeaderFashion = () =>{
         <nav class="search-navigation">
             <div class="logo-navigation">
                 <ul>
-                    <li><a href="./"><img src="./images/linkedin.png" alt="Logo do linkedin" /></a></li>
-                    <li><a href="./"><img src="./images/twitter.png" alt="Logo do twitter" /></a></li>
-                    <li><a href="./"><img src="./images/pinterest.png" alt="Logo do pinterest" /></a></li>
-                    <li><a href="./"><img src="./images/google-plus.png" alt="Logo do google plus" /></a></li>
-                    <li><a href="./"><img src="./images/rss.png" alt="Logo do rss" /></a></li>
+                    <li><a href="./"><img src=${linkedin} alt="Logo do linkedin" /></a></li>
+                    <li><a href="./"><img src=${twitter} alt="Logo do twitter" /></a></li>
+                    <li><a href="./"><img src=${pinterest} alt="Logo do pinterest" /></a></li>
+                    <li><a href="./"><img src=${googlePlus} alt="Logo do google plus" /></a></li>
+                    <li><a href="./"><img src=${rss} alt="Logo do rss" /></a></li>
                 </ul>
             </div>
 

@@ -1,9 +1,11 @@
 import "./style.css"
+
+import computer from "../../assets/computer.png"
 const SectionTitle = () =>{
     return/*html*/`
     <section class="section-title">
 
-    <div class="computer-div"><img src="./images/computer.png" alt="imagem de um computador"/></div>
+    <div class="computer-div"><img src=${computer} alt="imagem de um computador"/></div>
 
     <div class="div-title">
     <h1>Receba ofertas e descontos exclusivos</h1>

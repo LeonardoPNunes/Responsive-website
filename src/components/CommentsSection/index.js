@@ -1,14 +1,18 @@
 import "./style.css"
+import pessoa1 from "../../assets/pessoa1.jpg"
+import pessoa2 from "../../assets/pessoa2.jpg"
+
+
 const CommentsSection = (i) =>{
     const comments = [
         {
-            img:"./images/pessoa1.jpg",
+            img:pessoa1,
             name:"Jorge S",
             comment:"Ótima loja"
 
         },
         {
-            img:"./images/pessoa2.jpg",
+            img:pessoa2,
             name:"Maria M",
             comment:"Qualidade impecavel"
 
