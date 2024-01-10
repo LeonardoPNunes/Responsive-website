@@ -80,8 +80,8 @@
         flex-direction: column;
     }
     .search{
-        margin-top:7vh;
-        margin-left:30vw;
+        margin:4vw 0;
+
     }
     .input-search{
         width:60%;
@@ -101,17 +101,5 @@
         background:#252525;
         width:100%;
         margin-top:5vw;
-    }
-    .logo-navigation{
-        position:absolute;
-        align-items: flex-start;
-        left:0;
-        margin:0;
-        padding:0;
-    }
-    .logo-fashion{
-        position:relative;
-        margin-top:3vh;
-
     }
 }

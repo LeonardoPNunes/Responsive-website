@@ -36,7 +36,7 @@ const FooterFashion = () =>{
             </div>
         </div>    
         <div class="div-copy">
-            <p>Copyright &copy; 2022 Leonardo Nunes - All rights Reserved</p>
+            <p>Copyright &copy; 2022 Fashion - All rights Reserved</p>
         </div>
         
     </footer>

@@ -7,7 +7,7 @@ const HeaderFashion = () =>{
         <nav class="search-navigation">
             <div class="logo-navigation">
                 <ul>
-                    <li><a href="https://www.linkedin.com/in/leonardo-paulo-nunes-de-freitas/"><img src="./images/linkedin.png" alt="Logo do linkedin" /></a></li>
+                    <li><a href="./"><img src="./images/linkedin.png" alt="Logo do linkedin" /></a></li>
                     <li><a href="./"><img src="./images/twitter.png" alt="Logo do twitter" /></a></li>
                     <li><a href="./"><img src="./images/pinterest.png" alt="Logo do pinterest" /></a></li>
                     <li><a href="./"><img src="./images/google-plus.png" alt="Logo do google plus" /></a></li>
